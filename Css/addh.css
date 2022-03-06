@@ -1,0 +1,79 @@
+.admin_right_bill {
+    width: 1500px;
+    height: auto;
+    margin-left: 55px;
+}
+
+.tbl {
+    border-collapse: collapse;
+    width: 100%;
+    background: linear-gradient(to left top, rgb(235, 177, 177), #CCC);
+}
+
+.tbl thead th,
+.tbl tbody td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn_delete:hover {
+    color: red;
+    font-size: 20px;
+}
+
+.btn_detail {
+    border: rgb(230, 157, 115);
+    background-color: rgb(224, 165, 110);
+    border-radius: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn_detail:hover {
+    color: red;
+}
+
+
+/* Modal */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: rgb(103, 118, 145);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 42px;
+}
